@@ -1,0 +1,22 @@
+package com.pqr;
+import java.util.Scanner;
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter a number :");
+		int num = sc.nextInt();
+		int cube= num*num;
+		int square = num*num*num;
+		System.out.println("cube of given number is  "+ cube);
+		System.out.println("Square of givin number is "+square);
+		
+		sc.close();
+	
+		
+	
+	}
+
+}
