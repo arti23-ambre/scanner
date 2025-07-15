@@ -1,0 +1,25 @@
+package com.pqr;
+import java.util.Scanner;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter a length of rectangle:");
+		int length = sc.nextInt();
+		System.out.println("Enter a Width of rectangle:");
+		int Width = sc.nextInt();
+		int area = length*Width;
+		int Perimeter  = 2*(length*Width);
+		
+		System.out.println("area of a rectangle  "+ area);
+		System.out.println("perimeter of a rectangle "+ Perimeter);
+		
+		sc.close();
+	
+		
+	
+	}
+
+}
