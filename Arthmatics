@@ -1,0 +1,23 @@
+package com.pqr;
+import java.util.Scanner;
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter a frist Number :");
+		int FristNumber = sc.nextInt();
+		System.out.println("Enter a second number:");
+		int SecondNumber = sc.nextInt();
+		System.out.println("Addition is "+FristNumber+SecondNumber);
+		System.out.println("Multiplication  is "+FristNumber*SecondNumber);
+		System.out.println("Division  is "+FristNumber/SecondNumber);
+		System.out.println("Module is "+FristNumber%SecondNumber);
+		sc.close();
+	
+		
+	
+	}
+
+}
