@@ -1,0 +1,21 @@
+package com.pqr;
+import java.util.Scanner;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter a Temperature in Celcius:");
+		int Celsius = sc.nextInt();
+		
+		int fahrenhiet = (Celsius*9/5)+32;
+		System.out.println("Temprature in Fahrenhiet  "+ fahrenhiet);
+		
+		sc.close();
+	
+		
+	
+	}
+
+}
